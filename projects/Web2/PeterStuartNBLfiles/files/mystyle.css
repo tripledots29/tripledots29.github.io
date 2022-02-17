@@ -1,0 +1,115 @@
+/* header is alligned centrally and set to a bright colour*/
+
+header {
+	text-align: center;
+	background-color: royalblue;
+	color: white;
+}
+
+/* offers where html is used to pass data is floated to the left of the screen*/
+
+#offers {
+
+	background-color: lightseagreen;
+	float: left;
+}
+/* offers where JSON is used to pass data is floated to the right of the screen*/
+
+#JSONoffers {
+	background-color: lightcoral;
+	float: right;
+}
+
+/* nav clears either side of the offers*/
+
+nav {
+	clear: both;
+}
+
+/* the nav bar is given basic style and colour*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: mediumturquoise;
+}
+
+/* list of links floats left and is given basic style */
+
+li a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* last child is the login/logout button and is therefore placed to the right by itself and given a different colour*/
+
+li:last-child {
+		border-right: none;
+		background-color: orangered;
+}
+
+
+/* when hovering over a link in the list, the item will be given a darker background colour */
+
+li a:hover {
+	background-color: darkturquoise;
+	color: white;
+}
+
+/* text is alligned centrally and a margin is created from the nav bar */
+
+main {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* footer contains info passed depending on what page/state the site is in*/
+
+footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	background-color: white;
+}
+
+
+/* table to show book list in easy to see format*/
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+/* various elements fonts and colour */
+h1 {
+	font-family: Verdana, sans-serif;
+}
+
+h2 {
+	color: #303030;
+	font-family: arial, sans-serif;
+}
+
+h3 {
+	color: #303030;
+	font-family: arial, sans-serif;
+}
+
+p {
+	font-family: arial, sans-serif;
+}
