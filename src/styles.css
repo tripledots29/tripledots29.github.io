@@ -203,7 +203,7 @@ ul.socials-ul li
 
 
 /* On screens that are 600px wide or less, go from 2 columns to 1 column */
-@media screen and (max-width: 320px) 
+@media screen and (max-width: 480px) 
 {
     .project-row 
     {
