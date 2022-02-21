@@ -28,6 +28,11 @@ h2
     font-size: 50px;
 }
 
+h3
+{
+    font-size: 35px;
+}
+
 p
 {
     margin-top: 10px;
@@ -40,6 +45,8 @@ a
     text-decoration: none;
     color: white;
 }
+
+/* -------------------------------------------------------------------- */
 
 /* HERO */
 
@@ -98,6 +105,8 @@ ul.socials-ul li
     text-decoration: none;
 }
 
+/* -------------------------------------------------------------------- */
+
 /* ABOUT ME */
 
 .about
@@ -131,7 +140,9 @@ ul.socials-ul li
     padding: 20px; /* size of circle */
 }
 
-/* PORTFOLIO */
+/* -------------------------------------------------------------------- */
+
+/* MY PORTFOLIO */
 
 .portfolio
 {
@@ -154,27 +165,29 @@ ul.socials-ul li
 
 .project-column
 {
-    flex: 40%;
-    padding: 20px;
+    flex: 35%;
+    padding: 40px;
     background: #fff6eb;
     box-shadow: 5px 5px 20px grey;
-    margin: 10px;
+    margin: 35px;
     position: relative;
 
 }
 
 .project-image
 {
-    margin-top: 25px;
-    width: 250px;
-    border-radius: 200px;
+    margin: 25px;
+    width: 350px;
+    height: 220px;
+    border-radius: 300px;
+    box-shadow: 5px 5px 20px grey;
 }
 
 .subtext-info
 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .absolute
@@ -190,8 +203,8 @@ ul.socials-ul li
 
 .subtext-links p
 {
-    
-    font-size: 20px;
+    margin-top: 28px;
+    font-size: 28px;
     font-weight: 300;
 }
 
@@ -201,9 +214,44 @@ ul.socials-ul li
     color: #ffa230;
 }
 
+/* -------------------------------------------------------------------- */
+
+/* MY CV */
+
+.cv
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.cv-info
+{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.cv-button-area
+{
+    padding: 50px;
+}
+
+.cv-button-button
+{
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.cv-button-button:hover
+{
+    fill: #505050;
+    padding: 15px 15px; 
+    transform:scale(1.3,1.3);
+}
 
 /* On screens that are 600px wide or less, go from 2 columns to 1 column */
-@media screen and (max-width: 480px) 
+@media screen and (max-width: 320px) 
 {
     .project-row 
     {
@@ -211,18 +259,34 @@ ul.socials-ul li
     }
 }
 
-
+/* -------------------------------------------------------------------- */
 
 /* FOOTER */
-footer
+
+.contact
 {
-    height: 500px;
-    background-color: black;
+    background-color: #006497;
     color: white;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 50px;
 }
 
+.contact-form
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+
+}
+
+label
+{
+    margin-bottom: 50px;
+}
 
 
 
