@@ -46,6 +46,20 @@ a
     color: white;
 }
 
+input
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+textarea
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 /* -------------------------------------------------------------------- */
 
 /* HERO */
@@ -278,14 +292,46 @@ ul.socials-ul li
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 50%;
     justify-content: center;
-
+    width: 40%;
 }
 
 label
 {
-    margin-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+input[type=text]
+{
+    padding: 10px;
+    margin: 8px, 0;
+    box-sizing: border-box;
+}
+
+#message
+{
+    padding: 12px 20px;
+    height: 100px;
+    margin-bottom: 40px;
+    resize: none;
+}
+
+input[type=submit]
+{
+    background-color: antiquewhite;
+    border: none;
+    font-size: 35px;
+    font-weight: 300;
+    padding: 22px 22px;
+    width: 50%;
+    margin: auto;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
 }
 
 
