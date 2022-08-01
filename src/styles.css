@@ -105,6 +105,13 @@ ul.nav-ul li
     margin-left: 50px;
 }
 
+.hero-subtext
+{
+	font-style: italic;
+	font-size: 30px;
+	margin-top: -20px;
+}
+
 ul.socials-ul
 {
     display: flex;
